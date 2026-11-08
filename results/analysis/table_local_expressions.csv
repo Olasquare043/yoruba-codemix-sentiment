@@ -1,0 +1,7 @@
+model,local_expressions,other_tweets,drop
+LSTM,52.95,68.11,15.16
+BiLSTM + attention,54.49,67.43,12.94
+mBERT,58.36,63.73,5.37
+XLM-R base,56.3,61.8,5.5
+AfriBERTa-large,62.9,72.66,9.76
+AfroXLMR-large,67.61,73.73,6.12

@@ -1,0 +1,12 @@
+{
+  "best_epoch": 12,
+  "dev_weighted_f1": 0.7024959962990663,
+  "train_minutes": 0.30859376589457194,
+  "test_weighted_f1": 0.6768193236425142,
+  "test_macro_f1": 0.6575878098477551,
+  "test_accuracy": 0.6699889258028793,
+  "model": "lstm",
+  "seed": 44,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130"
+}

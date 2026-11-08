@@ -1,0 +1,16 @@
+{
+  "best_epoch": 4,
+  "dev_weighted_f1": 0.772993411977375,
+  "train_minutes": 20.193384563922884,
+  "hf_model": "Davlan/afro-xlmr-large",
+  "lr": 1e-05,
+  "transformers": "5.16.1",
+  "collapsed": false,
+  "test_weighted_f1": 0.7373768400441346,
+  "test_macro_f1": 0.7186094400408055,
+  "test_accuracy": 0.7362126245847176,
+  "model": "afroxlmr_large",
+  "seed": 46,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128"
+}

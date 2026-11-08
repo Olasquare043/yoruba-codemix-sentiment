@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+statsmodels
+openpyxl
+# for the training notebooks (run on a GPU, e.g. Kaggle or Colab)
+torch
+transformers
+datasets
+accelerate
+english-words

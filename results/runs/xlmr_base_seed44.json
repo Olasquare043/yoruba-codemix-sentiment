@@ -1,0 +1,16 @@
+{
+  "best_epoch": 5,
+  "dev_weighted_f1": 0.7097089462027645,
+  "train_minutes": 20.9242529352506,
+  "hf_model": "FacebookAI/xlm-roberta-base",
+  "lr": 2e-05,
+  "transformers": "5.18.0",
+  "collapsed": false,
+  "test_weighted_f1": 0.5930878181052809,
+  "test_macro_f1": 0.5735374034852581,
+  "test_accuracy": 0.5991140642303433,
+  "model": "xlmr_base",
+  "seed": 44,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130"
+}

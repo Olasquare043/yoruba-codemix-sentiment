@@ -1,0 +1,16 @@
+{
+  "best_epoch": 4,
+  "dev_weighted_f1": 0.7551869454284688,
+  "train_minutes": 6.945546619097391,
+  "hf_model": "castorini/afriberta_large",
+  "lr": 5e-05,
+  "transformers": "5.18.0",
+  "collapsed": false,
+  "test_weighted_f1": 0.7337019780498996,
+  "test_macro_f1": 0.7164739159621268,
+  "test_accuracy": 0.7313399778516058,
+  "model": "afriberta_large",
+  "seed": 45,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130"
+}

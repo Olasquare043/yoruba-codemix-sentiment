@@ -1,0 +1,7 @@
+,negative,neutral,positive
+LSTM,59.86,69.02,76.87
+BiLSTM + attention,59.95,66.02,77.67
+mBERT,57.46,56.46,76.88
+XLM-R base,54.28,53.27,76.47
+AfriBERTa-large,64.83,72.93,81.4
+AfroXLMR-large,65.47,74.0,81.28

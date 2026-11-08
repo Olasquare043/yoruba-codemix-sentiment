@@ -1,0 +1,16 @@
+{
+  "best_epoch": 5,
+  "dev_weighted_f1": 0.7099815476456057,
+  "train_minutes": 7.169090588887532,
+  "hf_model": "google-bert/bert-base-multilingual-cased",
+  "lr": 5e-05,
+  "transformers": "5.16.1",
+  "collapsed": false,
+  "test_weighted_f1": 0.6161984642821221,
+  "test_macro_f1": 0.6009566842924338,
+  "test_accuracy": 0.6294573643410852,
+  "model": "mbert",
+  "seed": 46,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128"
+}

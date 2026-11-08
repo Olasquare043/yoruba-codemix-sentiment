@@ -1,0 +1,68 @@
+id,gold,pred,dominance,category
+yor_10746,positive,negative,YO,Other
+yor_10835,positive,neutral,YO,Other
+yor_10837,positive,neutral,BAL,Informational or educational post
+yor_10880,positive,neutral,BAL,Other
+yor_10884,positive,neutral,YO,"Proverb, idiom or oral literature"
+yor_10891,positive,neutral,BAL,Informational or educational post
+yor_10912,positive,neutral,EN,"Slang, pidgin, banter or insult"
+yor_11006,positive,negative,YO,Informational or educational post
+yor_11119,positive,negative,BAL,Other
+yor_11166,positive,neutral,YO,Informational or educational post
+yor_11173,positive,negative,BAL,"Proverb, idiom or oral literature"
+yor_11249,positive,negative,YO,"Slang, pidgin, banter or insult"
+yor_11328,positive,neutral,YO,"Proverb, idiom or oral literature"
+yor_11384,positive,neutral,EN,Other
+yor_11510,positive,neutral,YO,"Slang, pidgin, banter or insult"
+yor_11565,positive,negative,BAL,"Proverb, idiom or oral literature"
+yor_11658,positive,neutral,YO,"Proverb, idiom or oral literature"
+yor_11762,positive,neutral,BAL,Other
+yor_11771,positive,neutral,BAL,Informational or educational post
+yor_11833,positive,negative,BAL,"Slang, pidgin, banter or insult"
+yor_11905,positive,neutral,EN,Informational or educational post
+yor_11952,positive,neutral,EN,Informational or educational post
+yor_11993,positive,negative,YO,Questionable gold label
+yor_12037,positive,neutral,YO,Informational or educational post
+yor_12094,positive,neutral,YO,Informational or educational post
+yor_12457,positive,negative,BAL,"Slang, pidgin, banter or insult"
+yor_12533,neutral,positive,EN,Informational or educational post
+yor_12629,neutral,negative,YO,Informational or educational post
+yor_12639,neutral,positive,YO,Informational or educational post
+yor_12853,neutral,positive,YO,Informational or educational post
+yor_12857,neutral,positive,BAL,Informational or educational post
+yor_12973,neutral,positive,YO,"Slang, pidgin, banter or insult"
+yor_13127,neutral,negative,BAL,Informational or educational post
+yor_13166,neutral,negative,BAL,Questionable gold label
+yor_13241,neutral,negative,YO,Informational or educational post
+yor_13309,neutral,positive,YO,"Proverb, idiom or oral literature"
+yor_13376,neutral,positive,BAL,"Slang, pidgin, banter or insult"
+yor_13390,neutral,negative,YO,"Slang, pidgin, banter or insult"
+yor_13555,neutral,negative,EN,Other
+yor_13607,neutral,positive,YO,"Proverb, idiom or oral literature"
+yor_13668,neutral,positive,EN,Informational or educational post
+yor_13883,neutral,positive,EN,Informational or educational post
+yor_13891,neutral,negative,YO,Informational or educational post
+yor_13918,neutral,positive,YO,Informational or educational post
+yor_14010,neutral,negative,YO,"Proverb, idiom or oral literature"
+yor_14013,neutral,negative,BAL,"Proverb, idiom or oral literature"
+yor_14029,neutral,negative,YO,Informational or educational post
+yor_14090,neutral,negative,EN,"Proverb, idiom or oral literature"
+yor_14173,negative,neutral,YO,Informational or educational post
+yor_14238,negative,positive,YO,"Slang, pidgin, banter or insult"
+yor_14255,negative,neutral,BAL,Other
+yor_14292,negative,positive,YO,Other
+yor_14385,negative,neutral,YO,"Slang, pidgin, banter or insult"
+yor_14473,negative,positive,BAL,Informational or educational post
+yor_14506,negative,positive,YO,"Proverb, idiom or oral literature"
+yor_14517,negative,neutral,YO,"Proverb, idiom or oral literature"
+yor_14535,negative,neutral,BAL,"Proverb, idiom or oral literature"
+yor_14568,negative,neutral,YO,"Proverb, idiom or oral literature"
+yor_14598,negative,positive,YO,"Slang, pidgin, banter or insult"
+yor_14685,negative,positive,EN,Sentiment differs across the two languages
+yor_14715,negative,neutral,YO,"Proverb, idiom or oral literature"
+yor_14813,negative,neutral,YO,Informational or educational post
+yor_14875,negative,neutral,BAL,Informational or educational post
+yor_14888,negative,neutral,YO,"Proverb, idiom or oral literature"
+yor_14896,negative,neutral,YO,"Proverb, idiom or oral literature"
+yor_14928,negative,positive,YO,Other
+yor_15086,negative,positive,YO,"Slang, pidgin, banter or insult"
