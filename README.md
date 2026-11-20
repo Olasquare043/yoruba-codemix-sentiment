@@ -25,6 +25,22 @@ We add a human code-mixing annotation layer to the Yorùbá test set of [AfriSen
 
 No model scores significantly lower on mixed tweets.
 
+## Live demo
+
+Try it: [Hugging Face Space](https://huggingface.co/spaces/Olasquare/yoruba-tweet-sentiment) *(link placeholder until the Space is published)*
+
+Type a Yorùbá, English or code-mixed tweet to see the predicted sentiment with the probability of each class, plus a code-mixing check (the tweet's Code-Mixing Index and each word tagged Yorùbá, English or neutral, using the method of notebook 01). The model is AfriBERTa-large fine-tuned once (seed 42) with the same recipe as the report, by `notebooks/04_train_and_publish_demo_model.ipynb`, and published as [Olasquare/afriberta-large-yoruba-sentiment](https://huggingface.co/Olasquare/afriberta-large-yoruba-sentiment). Its single-run test score is on the model page; the report's figures are 5-seed means. Nothing typed into the demo is logged or stored.
+
+Run it locally (CPU is enough):
+
+```bash
+cd app
+python -m venv .venv
+.venv/Scripts/activate        # Windows; on macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+python app.py                 # then open http://127.0.0.1:7860
+```
+
 ## Repository layout
 
 ```
@@ -40,6 +56,8 @@ notebooks/
   02_train_all_models.ipynb                 trains all six models with five seeds (GPU; Colab or Kaggle)
   02b_kaggle_remaining_runs.ipynb           Kaggle copy used for the last eight runs
   03_results_and_figures.ipynb              all tables and figures of the report (no GPU; outputs included)
+  04_train_and_publish_demo_model.ipynb     trains the demo model once and publishes it to the Hugging Face Hub (Kaggle GPU)
+app/                                        the demo (Hugging Face Space, Gradio)
 src/
   analysis.py                               agreement, prevalence, mixed vs non-mixed, regression, errors
 scripts/
