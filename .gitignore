@@ -7,3 +7,7 @@ __pycache__/
 
 # local secrets
 .env
+
+# local Python environments
+.venv/
+venv/
