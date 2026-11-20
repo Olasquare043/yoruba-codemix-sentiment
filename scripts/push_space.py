@@ -1,5 +1,8 @@
 """Upload the app/ folder to the Hugging Face Space (creates the Space if needed).
 
+Note (November 2026): Hugging Face now requires a PRO subscription to host Gradio Spaces on
+free CPU, so this script is kept for later use; the demo currently runs locally (see README).
+
 Needs HF_TOKEN (a write token) in a local .env file next to this repo's README, or in the environment.
 Usage: python scripts/push_space.py
 """

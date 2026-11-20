@@ -27,9 +27,9 @@ No model scores significantly lower on mixed tweets.
 
 ## Live demo
 
-Try it: [Hugging Face Space](https://huggingface.co/spaces/Olasquare/yoruba-tweet-sentiment) *(link placeholder until the Space is published)*
+The demo is a small Gradio web app that runs on your own computer (CPU is enough). Hosting a Gradio app on Hugging Face Spaces now needs a paid plan, so it is not hosted; the trained model itself is public. To share a temporary public link (valid up to 72 hours) while the app runs, set `SHARE=1` before starting it (`$env:SHARE="1"` in Windows PowerShell, `set SHARE=1` in Command Prompt, `export SHARE=1` on macOS/Linux).
 
-Type a Yorùbá, English or code-mixed tweet to see the predicted sentiment with the probability of each class, plus a code-mixing check (the tweet's Code-Mixing Index and each word tagged Yorùbá, English or neutral, using the method of notebook 01). The model is AfriBERTa-large fine-tuned once (seed 42) with the same recipe as the report, by `notebooks/04_train_and_publish_demo_model.ipynb`, and published as [Olasquare/afriberta-large-yoruba-sentiment](https://huggingface.co/Olasquare/afriberta-large-yoruba-sentiment). Its single-run test score is on the model page; the report's figures are 5-seed means. Nothing typed into the demo is logged or stored.
+Type a Yorùbá, English or code-mixed tweet to see the predicted sentiment with the probability of each class, plus a code-mixing check (the tweet's Code-Mixing Index and each word tagged Yorùbá, English or neutral, using the method of notebook 01). The model is AfriBERTa-large fine-tuned once (seed 42) with the same recipe as the report, by `notebooks/04_train_and_publish_demo_model.ipynb`, and published as [Olasquare/afriberta-large-yoruba-sentiment](https://huggingface.co/Olasquare/afriberta-large-yoruba-sentiment). This single run (seed 42) scored 71.7 weighted F1, 69.9 macro F1 and 72.0% accuracy on the 4,515 test tweets; the report's figures are 5-seed means (AfriBERTa-large 72.5). Nothing typed into the demo is logged or stored.
 
 Run it locally (CPU is enough):
 
@@ -57,13 +57,14 @@ notebooks/
   02b_kaggle_remaining_runs.ipynb           Kaggle copy used for the last eight runs
   03_results_and_figures.ipynb              all tables and figures of the report (no GPU; outputs included)
   04_train_and_publish_demo_model.ipynb     trains the demo model once and publishes it to the Hugging Face Hub (Kaggle GPU)
-app/                                        the demo (Hugging Face Space, Gradio)
+app/                                        the demo web app (Gradio, runs locally)
 src/
   analysis.py                               agreement, prevalence, mixed vs non-mixed, regression, errors
 scripts/
   build_annotation_sheets_v2.py             record of how the second annotation sheets were built
 report/
   CSC790_Project_Report.pdf / .docx          the course project report
+  CSC790_Project_Explained.pdf               plain-language guide: what we did and how to test it
 results/
   all_30_runs.csv                           test scores of every run
   runs/                                     one JSON per run (seed, versions, GPU, best epoch, scores)

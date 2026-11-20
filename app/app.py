@@ -183,4 +183,5 @@ with gr.Blocks(title="Yorùbá Tweet Sentiment", analytics_enabled=False) as dem
         gr.Markdown(ABOUT.replace("{SCORES}", load_test_scores()))
 
 if __name__ == "__main__":
-    demo.launch()
+    # SHARE=1 gives a temporary public gradio.live link (up to 72 hours) while this runs
+    demo.launch(share=os.environ.get("SHARE") == "1")
